@@ -16,20 +16,10 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name'     => 'Admin SantapKita',
             'email'    => 'admin@santapkita.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('admin123'),
             'phone'    => '081234567890',
             'address'  => 'Jl. Admin No. 1, Jakarta',
             'role'     => 'admin',
-        ]);
-
-        // Create Sample Member
-        User::create([
-            'name'     => 'Budi Santoso',
-            'email'    => 'budi@email.com',
-            'password' => Hash::make('password'),
-            'phone'    => '081298765432',
-            'address'  => 'Jl. Merpati No. 5, Bandung',
-            'role'     => 'member',
         ]);
 
         // Create Categories
