@@ -47,7 +47,7 @@ Akses di: **http://localhost:8000**
 | Role   | Email                | Password   |
 |--------|-----------------------|------------|
 | Admin  | admin@santapkita.com  | password   |
-| Member | budi@email.com        | password   |
+
 
 > Silakan ganti password ini setelah instalasi di lingkungan produksi.
 
